@@ -40,7 +40,7 @@ $sql = mq($sqlq);
 $message = "$name" . "님, 평화김해뒷고기 율하2지구입니다. $day 대기자 등록이 정상적으로 진행되었습니다! 취소 문의는 010-4415-2391로 부탁드립니다.";
 
 // 알리고문자 API 정보
-$api_key = "nhjiel28j3umwlfu0lzi34s4waurjea1";
+$api_key = "API_KEY_알리고문자";
 $sender_number = "01034872391";
 
 // 전화번호를 국가번호 포함하여 정규화
