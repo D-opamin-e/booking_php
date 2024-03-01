@@ -24,8 +24,8 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['number']) && isset($_GET
     $name = $_GET['name'];
 
     // 알리고문자 API 정보
-    $api_key = "nhjiel28j3umwlfu0lzi34s4waurjea1";
-    $sender_number = "01034872391";
+    $api_key = "api_key_알리고문자";
+    $sender_number = "수신번호";
     $message = "평화김해뒷고기 율하2지구입니다. 상 정리를 마무리 중이니, 입장 대기 부탁드리겠습니다";
     $sms_url = "https://apis.aligo.in/send/";
 
